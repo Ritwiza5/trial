@@ -1,0 +1,49 @@
+.CardItemCard{
+    display:flex;
+    padding:1vmax;
+    height:8vmax;
+    align-items:flex-start;
+    box-sizing:border-box;
+}
+.CardItemCard>img{
+    width:8vmax;
+    height: 7vmax;
+   
+}
+.CardItemCard>div{
+    display:flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction:column;
+}
+.CardItemCard>div>a{
+    font:300 0.9vmax cursive;
+    color:#FF48B0;
+    text-decoration: none;
+}
+.CardItemCard>div>span{
+    font:300 0.9vmax "Roboto";
+    color:#0ef;
+}
+.CardItemCard>div>p{
+    color:tomato;
+    font:100 0.9vmax "Acme";
+    cursor:pointer;
+}
+@media screen and(max-width:600px){
+    .CartItemCard{
+        padding:3vam;
+        height:25vmax;
+    }
+    .CartItemCard>div{
+        margin:1vmax 2vmax;
+    }
+    .CardItemCard>div>a{
+        font:300 2vmax cursive;
+    }
+    .CardItemCard>div>span{
+        font:300 1.9vmax "Roboto";
+    }
+    .CardItemCard>div>p{
+        font:100 1.8vmax "Roboto";
+    }
+}

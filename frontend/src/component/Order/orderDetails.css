@@ -1,0 +1,117 @@
+ .orderDetailsPage{
+    background-color:rgba(3, 0, 28, 1) ;
+   width:auto;
+  
+}
+.orderDetailsContainer>h1{
+    font:300 2vmax "Acme";
+    margin:4vmax 0;
+    color:tomato
+
+}
+.MuiTypography-root, .MuiTypography-body1{
+    font:bold;
+    color:#0ef;
+    
+}
+.orderDetailsContainer{
+    padding: 5vmax;
+    padding-bottom: 0%;
+    
+}
+.orderDetailsContainer>p{
+    font:400 1.8vmax "Acme";
+    color:#0ef;
+}
+.orderDetailsCartItems>p{
+    font:400 1.8vmax "Acme";
+}
+.orderDetailsContainerBox,
+.orderDetailsCartItemsContainer{
+    margin:2vmax;
+}
+.orderDetailsContainerBox>div{
+    display:flex;
+    margin:1vmax 0;
+}
+.orderDetailsContainerBox>div>p{
+    font:400 1vmax "Acme";
+    color:#FF9933
+}
+.orderDetailsContainerBox>div>span{
+    margin:0 1vmax;
+    font:100 1vmax "Acme";
+    color:#FF4880
+}
+.orderDetailsCartItems>p{
+    font:400 1.8vmax "Acme";
+}
+
+.orderDetailsCartItems{
+   margin-bottom: 1vmax;
+    padding:2vmax 5vmax;
+    border-bottom:1px solid #0ef;
+}
+.orderDetailsCartItemsContainer>div{
+    display:flex;
+    font:400 1vmax "Acme";
+    align-items:center;
+    margin:2vmax 0;
+}
+.orderDetailsCartItemsContainer>div>img{
+    width: 3vmax;
+}
+.orderDetailsCartItemsContainer>div>a{
+    color:#FF4880;
+    margin: 0 2vmax;
+    width:60%;
+    text-decoration:none;
+}
+.orderDetailsCartItemsContainer>div>span{
+    font:100 1vmax "Roboto";
+    color:#FF9933;
+}
+@media screen and(max-width:600px){
+
+    .orderDetailsContainer>p{
+        font:400 6vw "Roboto";
+    }
+    .orderDetailsContainerBox>div{
+        margin:6vw 0;
+    }
+    
+    .orderDetailsCartItemsContainer>p{
+        font:400 6vw "Acme";
+    }
+     .orderDetailsContainer>h1{
+        font: 20px; 
+        margin:1vmax 0;
+    
+    } 
+    .orderDetailsContainerBox>div{
+        margin:6vw 0;
+    }
+    .orderDetailsContainerBox>div>p{
+        font:400 4vw "Acme";
+    }
+    .orderDetailContainerBox>div>span{
+        font:100 4vw "Acme";
+    }
+    .orderDetailsCartItems>p{
+        font:400 6vw "Acme";
+    }
+    .orderDetailsCartItemsContainer>div{
+        font:400 4vw "Acme";
+        margin:4vw 0;
+    }
+    .orderDetailsCartItemsContainer>div>img{
+        width:10vw;
+    }
+    .orderDetailsCartItemsContainer>div>a{
+        margin:2vw;
+        width:30%;
+    }
+    .orderDetailsCartItemsContainer>div>img{
+        width:10vw;
+    }
+} 

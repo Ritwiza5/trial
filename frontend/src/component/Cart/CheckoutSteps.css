@@ -1,0 +1,40 @@
+ /* .MuiBackdrop-root{
+    color:rgba(3, 0, 28, 1);
+} 
+
+.MuiStepConnector-line{
+    display:none !important;
+}
+.MuiStepConnector-root{
+    height:1px;
+    background-color:#0ef;
+}
+.MuiSvgIcon-root{
+    color:#0ef;
+}
+
+.MuiStepConnector-active,
+.MuiStepConnector-completed
+{
+    background-color: tomato;
+}
+.MuiPaper-root{
+    background-color:#0ef ;
+}
+ .MuiTypography-root, .MuiTypography-body1{
+    color:#0ef;
+}  */
+
+.MuiStepConnector-line {
+    display: none !important;
+  }
+  
+  .MuiStepConnector-root {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+  
+  .MuiStepConnector-active,
+  .MuiStepConnector-completed {
+    background-color: tomato;
+  }

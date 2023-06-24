@@ -1,0 +1,69 @@
+
+
+.searchBox{
+    background-image: url(../video/Search.gif); 
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height:100vh;
+    max-width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    top: 0%;
+    left:0;
+   
+}
+
+
+.searchBox>input[type="text"]{
+    background-color: #B9E9FC;
+    border: none;
+    color: #DB1A5A;
+    padding:1vmax 2vmax;
+    width:50%;
+    outline:none;
+    border-radius:0%;
+    font: 300 1.1vmax cursive;
+    box-sizing: border-box;
+    height: 8%;
+    box-shadow: -2px 1px 10px  #0ef,4px  4px 12px #0ef; 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.searchBox>input[type="image"]{
+   
+    background-color: #19376D;
+    border: none;
+    color: white;
+    padding:1vmax 2vmax;
+    width:2%;
+    outline:none;
+    border-radius:0%;
+    font: 300 1.1vmax "Acme";
+    height: 3.9%;
+    box-shadow: -2px 1px 10px  #0ef,4px  4px 12px #0ef; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.searchBox>input[type="submit"]:hover{
+    background-color:rgb(3, 0, 28);
+    box-shadow: -2px 1px 10px  #FF48B0,4px  4px 12px #FF48B0; 
+    transform:scale(2);
+    
+}
+.searchBox>input:hover{
+    box-shadow: -2px 1px 10px  #FF48B0,4px  4px 12px #FF48B0; 
+
+}
+@media screen and (max-width:600px){
+    .searchBox>input[type="text"]{
+        height:6%;
+    }
+
+}

@@ -1,0 +1,113 @@
+
+.back{
+    margin-top: 0;
+    background-image: linear-gradient(to top, #03001c, #202c43, #3d556d, #5e8298, #82b1c3, #82b1c3, #82b1c3, #82b1c3, #5e8298, #3d556d, #202c43, #03001c);
+}
+h2{
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2vmax 5vmax;
+    justify-content: center;
+    min-height: 30vh;
+}
+.productHeading{
+    text-align:center;
+    align-self: center;
+    border-radius: 30px;
+    font-family:Acme;
+    font-size:2vmax;
+    border-bottom:solid 7px transparent;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    box-shadow: 2px 1000px 1px #C3CDE6 inset;
+    color:#DB1A5A;
+     width: 20vmax;
+    padding:1vmax;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.paginationBox{
+    display:flex;
+    justify-content:center;
+    margin:2vmax;
+}
+.pagination{   /*default class*/
+display:flex;
+justify-content:center;
+padding:0;
+}
+.page-item{
+    background-image: linear-gradient(to left bottom, #b9f3fc, #8ce3ff, #7aceff, #98b1ff, #cb8aff);
+    list-style:none;
+    border:1px solid rgba(0,0,0,0.178);
+    padding:1vmax 1.5vmax;
+    transition:all 0.3s;
+    cursor:pointer;
+}
+.page-item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.page-item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.page-link{
+    text-decoration:none;
+    font:500 0.9vmax "Acme";
+    color:#DB1A5A;
+    transition:all 0.3s;
+}
+.page-item:hover{
+    background-image: linear-gradient(to right top, #051937, #332457, #6c266a, #a71c6b, #db1a5a);
+}
+.page-item:hover .page-link{
+    color:#0ef;
+}
+.pageItemActive{
+    background-image: linear-gradient(to right top, #05371f, #004e41, #006569, #007b93, #3190bb, #449fcf, #57afe3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+    .pageLinkActive{
+    color:white;
+}
+.filterBox{
+    width:10vmax;
+    position:absolute;
+    top:10vmax;
+    left:4vmax;
+}
+.categoryBox{
+    padding:0;
+}
+.category-link{
+    list-style:none;
+    color:rgba(0,0,0,0.61);
+    font:400 0.8vmax "Roboto";
+    margin:0.4vmax;
+    cursor:pointer;
+    transition:all 0.5s;
+}
+.category-link:hover{
+    color:tomato;
+}
+
+.filterBox>fieldset{
+  border:1px solid rgba(0,0,0,0.329);  
+}
+
+@media screen and (max-width:600px){
+    .filterBox{
+        width:20vmax;
+        position:static;
+        margin:auto;
+    }
+   .page-link{
+    font: 300 1.7vmax "Roboto";
+   }
+   .category-link{
+    font:400 1.8vmax "Roboto";
+   }
+}
+

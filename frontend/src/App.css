@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar{
+    width:6px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+.reviews::-webkit-scrollbar{
+    width:6px;
+}
+ 
+  
+::-webkit-scrollbar-track{
+   background:#0ef;
+}
+::-webkit-scrollbar-thumb{
+   
+    background-image: linear-gradient(to right top, #cc2b5e, #bc2a6d, #a82e7a, #903483, #753a88);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-image: #b9f3fc;
+}
+
+
+
+/*Chrome,Safari,Edge,Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+
+
+
+/*Firefox */
+input[type="number"]{
+    -moz-appearance:textfield;
+}
+
+.greenColor{
+    color: green !important;
+}
+.redColor{
+    color: red !important;
+}
+.MuiPaper-root {
+    
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: rgb(3, 0, 28) !important;
+}
+element.style {
+    color: rgb(179,66,46) !important;
+}
+
+/* .MuiSvgIcon-root{
+    color:#0ef;
+} */

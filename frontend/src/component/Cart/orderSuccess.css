@@ -1,0 +1,30 @@
+.orderSuccess{
+    margin:auto;
+    text-align:center;
+    height:60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(3, 0, 28, 1)  ;
+}
+.orderSuccess>svg{
+    font-size:7vmax;
+     color:  #8ce3ff;
+}
+.orderSuccess>p{
+    font-size:2vmax;
+    color:#0ef
+
+}
+.orderSuccess>a{
+    background-image: linear-gradient(to left bottom, #b9f3fc, #8ce3ff, #7aceff, #98b1ff, #cb8aff);
+    color:rgba(3, 0, 28, 1) ;
+    text-decoration: none;
+    margin:2vmax;
+    font:400 1vmax "Acme";
+    cursor:pointer;
+    padding:1vmax 3vmax;
+    border:none;
+    border-radius: 40px;
+}

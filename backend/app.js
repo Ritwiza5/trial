@@ -21,6 +21,7 @@ app.use(express.json()) //recognize incoming request object as json object
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(fileUpload());
+app.use(cors());
 //Route Imports
 const product=require("./routes/productRoute");
 const user=require("./routes/userRoute");
@@ -30,7 +31,7 @@ const payment=require("./routes/paymentRoute");
 app.use("/api/v1",product);
 app.use("/api/v1",user);
 app.use("/api/v1",order);
-app.use("/api/v1",payment);//
+app.use("/api/v1",payment);
 
 app.use(express.static(path.join(__dirname,"../frontend/build")));
 

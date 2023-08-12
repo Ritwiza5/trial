@@ -6,6 +6,7 @@ const bodyParser=require("body-parser");
 const fileUpload=require("express-fileupload");
 const dotenv=require("dotenv");
 const path=require("path");
+const cors=require("cors");
 ////const __filename = fileURLToPath(import.meta.url);
 //const __dirname = path.dirname(__filename);
 
@@ -22,6 +23,7 @@ app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(fileUpload());
 app.use(cors());
+
 //Route Imports
 const product=require("./routes/productRoute");
 const user=require("./routes/userRoute");

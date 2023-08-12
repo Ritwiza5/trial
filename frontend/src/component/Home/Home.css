@@ -81,7 +81,7 @@ background-color:#6EFACC;
     
   } 
   .cards{
-    margin: 0px;
+    margin: -7px;
     background-image: linear-gradient(to top, #03001c, #202c43, #3d556d, #5e8298, #82b1c3, #82b1c3, #82b1c3, #82b1c3, #5e8298, #3d556d, #202c43, #03001c);
   }
 

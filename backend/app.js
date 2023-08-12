@@ -1,4 +1,4 @@
-import { fileURLToPath } from 'https://homeease-56gr.onrender.com/';
+//import { fileURLToPath } from 'https://homeease-56gr.onrender.com/';
 const express=require("express");
 const app=express();
 const cookieParser=require("cookie-parser");
@@ -6,8 +6,8 @@ const bodyParser=require("body-parser");
 const fileUpload=require("express-fileupload");
 const dotenv=require("dotenv");
 const path=require("path");
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+////const __filename = fileURLToPath(import.meta.url);
+//const __dirname = path.dirname(__filename);
 
 const errorMiddleware=require("./middleware/error");
 
@@ -30,7 +30,7 @@ const payment=require("./routes/paymentRoute");
 app.use("/api/v1",product);
 app.use("/api/v1",user);
 app.use("/api/v1",order);
-app.use("/api/v1",payment);
+app.use("/api/v1",payment);//
 
 app.use(express.static(path.join(__dirname,"../frontend/build")));
 

@@ -52,7 +52,7 @@ const Products = ({match}) => {
           <MetaData title="PRODUCTS--HOMEEASY" />
             <div className="back">
             <h2 className="productHeading">Products</h2>
-          <div className="products">{products && products.map((product)=>(<ProductCard key={product._id} product={product}/>))};
+          <div className="products">{products && products.map((product)=>(<ProductCard key={product._id} product={product}/>))}
             </div>
 
             <div className="filterBox">
